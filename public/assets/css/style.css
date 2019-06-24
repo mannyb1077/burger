@@ -1,7 +1,15 @@
+body
+{
+    background-image: url("../img/stacks.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 li {
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
+    background: lightslategrey;
+    /* color: white; */
   }
   
   .label {
@@ -12,8 +20,19 @@ li {
     padding: 5px;
     margin: 5px;
     background: aqua;
+    
   }
   
   .form-group {
     margin-bottom: 5px;
+    text-align: center;
+    color: white;
   }
+
+  h2, p {
+    text-align: center;
+    color: white;
+  }
+ #titles {
+   color: white;
+ }
