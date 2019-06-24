@@ -9,7 +9,6 @@ var connection = mysql.createConnection({
     database: "burger_db"
 });
 
-//Make Connection
 connection.connect(function(err){
     if (err){
         console.log ("error connecting: " + err.stack);
