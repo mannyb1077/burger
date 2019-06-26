@@ -38,7 +38,9 @@ $(function() {
   });
 
   $(".delete-burger").on("click", function(event) {
+    event.preventDefault();
     var id = $(this).data("id");
+    console.log("this is id");
     console.log(id);
 
     $.ajax("/api/burgers/" + id, {
@@ -46,7 +48,7 @@ $(function() {
     }).then(
       function() {
         console.log("deleted burger", id);
-        location.reload();
+        //location.reload();
       }
     );
   });
