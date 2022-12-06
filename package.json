@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/mannyb1077/burger#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "express-handlebars": "^3.0.2",
     "mysql": "^2.17.1",
     "path": "^0.12.7"
